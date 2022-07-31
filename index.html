@@ -14,10 +14,28 @@
     </div>
 
     <form>
-        Nome: <input type="text" name="nome" placeholder="Digite seu nome aqui">
-        Sobrenome: <input type="text" name="sobrenome" placeholder="Digite seu sobrenome aqui">
-        E-mail: <input type="email" name="email" placeholder="Digite seu e-mail">
-        Telefone: <input type="tel" name="usertel" placeholder="Digite seu número de telefone">
+        <fieldset>
+            <div>
+                <label>Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Digite seu nome aqui">
+            </div>
+
+            <div>
+                <label>Sobrenome:</label>
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu nome aqui">
+            </div>
+        </fieldset>
+            
+        <fieldset>
+            <div>
+                <label>E-mail:</label>
+                <input type="email" name="email" id="email" placeholder="Digite seu e-mail">
+
+                <label>Telefone:</label>
+                <input type="tel" name="usertel" placeholder="Digite seu número de telefone">
+            </div>
+        </fieldset>
+       
 
         <p>De qual lado da aplicação você desenvolve?</p>
         <input type="radio" name="aplicação" value="Back-end"> Back-end
