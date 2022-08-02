@@ -27,19 +27,24 @@ fieldset {
     margin: 0.5em;
 }
 
+
 input, select, textarea, button {
     border-radius: 5px;
 }
 
+.tamanho {
+    width: 40%;
+}
+
 .campo {
     margin-bottom: 1em;
-    padding: 2px;
+    padding: 1px;
 }
 
 .campo label {
     margin-bottom: 0.2em;
     display: block;
-    padding: 10px;
+    
 }
 
 #senioridade {
