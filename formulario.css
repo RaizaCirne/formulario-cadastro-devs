@@ -10,7 +10,7 @@ body {
 #titulo {
     font-family: sans-serif;
     color: black;
-    margin: 20px
+    margin: 15px
 }
 
 #subtitulo {
@@ -23,14 +23,35 @@ fieldset {
     border: 0;
 }
 
+.grupo {
+    margin: 0.5em;
+}
+
 input, select, textarea, button {
     border-radius: 5px;
 }
 
 .campo {
     margin-bottom: 1em;
+    padding: 2px;
 }
 
 .campo label {
     margin-bottom: 0.2em;
+    display: block;
+    padding: 10px;
+}
+
+#senioridade {
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.botao {
+    margin: 10px;
+}
+
+.botao:hover {
+    color: blueviolet;
+}
 }
