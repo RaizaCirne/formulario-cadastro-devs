@@ -32,3 +32,6 @@ input, select, textarea, button {
     border-radius: 5px;
 }
 
+.campo {
+    margin-bottom: 1em;
+}
