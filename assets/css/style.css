@@ -47,4 +47,9 @@ fieldset.grupo .campo {
     margin-right: 1em;
 }
 
-
+.campo input[type="text"], .campo input[type="email"], .campo select, .campo textarea {
+    padding: 0.2em; 
+    border: 1px solid #59429d;
+    box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
+    display: block;
+}
