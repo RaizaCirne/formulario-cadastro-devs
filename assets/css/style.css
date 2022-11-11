@@ -53,3 +53,7 @@ fieldset.grupo .campo {
     box-shadow: 2px 2px 2px rgb(0, 0, 0, 0.2);
     display: block;
 }
+
+.campo select option {
+    padding-right: 1em;
+}
