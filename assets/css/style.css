@@ -77,3 +77,9 @@ fieldset.grupo .campo {
     margin-right: -50%;
     transform: translate(-50%, -50%);
 }
+
+.botao:hover {
+    background: #ccbbff;
+    box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
+    text-shadow: none;
+}
