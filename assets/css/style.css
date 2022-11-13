@@ -83,3 +83,7 @@ fieldset.grupo .campo {
     box-shadow: inset 2px 2px 2px rgba(0, 0, 0, 0.2);
     text-shadow: none;
 }
+
+#check {
+    display: inline-block;
+}
