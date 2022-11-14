@@ -51,11 +51,3 @@ input, select, textarea, button {
     border-radius: 3px;
     margin-bottom: 10px;
 }
-
-.botao {
-    margin: 10px;
-}
-
-.botao:hover {
-    color: blueviolet;
-}
